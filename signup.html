@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <div class="header">
+    <nav>
+      <h2>TOURISUM</h2>
+      <img src="LOGO.png" alt="image" width="90px">
+      <ul>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Services</li>
+        <li>Places to go</li>
+      </ul>
+    </nav>
+    <div class="left">
+    <div class="quotes">
+      <h4>BEST DESTINATIONS AROUND THE WORLD</h4>
+      <h1>Travel, enjoy <br> and live a new <br> and full life</h1>
+      <p>Built wicket longer admire do barton vanity itself do in it.<br> preferred to sportsmen it engrossed listening. <br>
+      Park gate sell they west hard for the.</p>
+      <button type="button" class="btn">Find out more</button>
+  </div>
+  <div class="box">
+    <div class="container">
+      <h2> Register</h2>
+      <span>Signup now and get full access to our app.</span>
+      <form id="registrationForm" novalidate style="padding: 12px;">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" placeholder="Enter phone number" required/>
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email" id="email" placeholder="Enter your email" required/>
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" required/>
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <label for="confirmpassword"> confirmPassword</label>
+          <input type="password" id="confirmpassword" placeholder="Enter password" required/>
+          <small class="error"></small>
+        </div> 
+        <button type="submit">Register</button>
+        <span>Already have an account ? <a href="signin.html">Signin</a></span>
+      </form>
+      </div>
+      </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

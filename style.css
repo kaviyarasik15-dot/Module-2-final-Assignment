@@ -1,0 +1,198 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image:url(https://i.pinimg.com/1200x/b4/c2/f8/b4c2f859e61841b0ef552a9a9c1c8325.jpg);
+  background-size: cover;
+}
+ nav h2{
+   color:white;
+   padding-left: 50px;
+}
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+  position:relative;
+  right:450px;
+}
+nav ul li{
+    display: inline-block;
+    padding:10px 25px;
+    font-weight: bold;
+    font-size: 23px;
+}
+nav ul li a:hover{
+  color:rgb(0, 0, 0);
+  cursor: pointer;
+}
+.btn{
+  background-color: orange;
+  width:150px;
+}
+.quotes{
+  padding-left: 300px;
+  padding-top: 150px;
+}
+.quotes h1{
+  color:orangered;
+  font-size: 45px;
+}
+.quotes h4{
+  font-size: 20px;
+}
+.quotes p{
+  color:white;
+  font-size: 20px;
+}
+.left{
+  display: flex;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 300px;
+}
+.container {
+  background: rgb(243, 239, 239);
+  padding: 25px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #c22626;
+  margin-bottom: 20px;
+}
+span{
+  padding-left: 20px;
+  color:#26b0c2;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 480px;
+}
+input {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #b4b0b0;
+  border-radius: 5px;
+}
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+button {
+  background: #007bff;
+  width: 330px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #0056b3;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  height: 14px;
+  margin-top: 3px;
+  display: block;
+}
+.boxs{
+  position: relative;
+  left:150px;
+  top:140px;
+}
+.page{
+  align-items: center;
+  text-align: center;
+}
+/* Mobile Responsive*/
+@media screen and (max-width:768px){
+  .quotes{
+    flex-direction: column;
+  }
+  .quotes h1{
+    font-size: 25px;
+    position: relative;
+    right:200px;
+  }
+  .quotes h4{
+    font-size: 15px;
+    position: relative;
+    right:200px;
+    flex-direction: row;
+  }
+  .quotes p{
+    font-size: 20px;
+    position: relative;
+    right:200px;
+    width:400px;
+  }
+  .btn{
+    position: relative;
+    right:200px;
+  }
+  .box{
+    order:2;
+    position: relative;
+    right:300px;
+
+  }
+  
+}
+/*Tablets*/
+@media (min-width:769px) and (max-width:1024px){
+  .quotes{
+    flex-direction: column;
+    order:1;
+  }
+  .quotes h1{
+    font-size: 25px;
+    position: relative;
+    right:200px;
+  }
+  .quotes h4{
+    font-size: 15px;
+    position: relative;
+    right:200px;
+    flex-direction: row;
+  }
+  .quotes p{
+    font-size: 20px;
+    position: relative;
+    right:200px;
+    width:400px;
+  }
+  .btn{
+    position: relative;
+    right:200px;
+  }
+  .box{
+    order:2;
+    position: relative;
+    right:400px;
+    padding-top: 50px;
+  }
+  body{
+    background-size:cover;
+  }
+  .boxs{
+    position:relative;
+    left:50px;
+    top:50px;
+  }
+}
